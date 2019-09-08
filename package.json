@@ -1,0 +1,23 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "This project contains a script to process a DFP Export (saved as a Google Drive spreadsheet) in order to: - add filters on input columns - add \"Total\" & \"Average\" cells on output columns (based on filters choices) - generate a sheet per specified dimension containing one chart per output type",
+  "main": "index.js",
+  "dependencies": {
+    "@google/clasp": "^2.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgiraudel/dfp-export-processor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lgiraudel/dfp-export-processor/issues"
+  },
+  "homepage": "https://github.com/lgiraudel/dfp-export-processor#readme"
+}
